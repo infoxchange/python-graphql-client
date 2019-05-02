@@ -9,6 +9,8 @@ setuptools.setup(
     author_email='developers@infoxchange.org',
     license='MIT',
     packages=setuptools.find_packages(),
-    install_requires=[],
+    install_requires=[
+        'requests',
+    ],
     zip_safe=False
 )
